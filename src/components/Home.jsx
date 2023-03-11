@@ -11,7 +11,7 @@ const Home = () => {
           <h2 className="sm:text-8xl font-bold">
             Hi I'm <span className="text-cyan-700 dark:text-amber-400">Parker</span>!
           </h2>
-          <h3 className="sm:text-4xl my-6 font-bold">Software/Web Developer</h3>
+          <h3 className="sm:text-4xl my-6 font-bold">Software Developer</h3>
           {/* <p className="text-white py-7 max-w-md ">Soon to be graduate from my software development diploma. Currently, I enjoy working on web applications using technologies such as React, Tailwind or Python.</p> */}
           <div>
             <Link to="about" smooth duration={700} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cyan-700 dark:bg-orange-400 cursor-pointer">
