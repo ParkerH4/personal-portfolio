@@ -83,16 +83,16 @@ const Experience = () => {
   ];
 
   return (
-    <div name="experience" className="h-screen">
+    <div name="experience" className="w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <h2 className="text-4xl text-cyan-700 dark:text-white font-bold border-b-4 border-cyan-700 dark:border-amber-500 inline">Experience</h2>
           <p className=" text-xl py-6">Here are some languages/libraries and technologies I have worked with:</p>
         </div>
 
-        <div className="w-full grid sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
           {languages.map(({ id, src, title, border }) => (
-            <div key={id} className={`bg-cyan-900 text-white hover:scale-110 duration-500 py-3 shadow-lg ${border}`}>
+            <div key={id} className={`bg-cyan-900 text-white hover:scale-110 duration-500 sm:py-3 shadow-lg ${border}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-3">{title}</p>
             </div>

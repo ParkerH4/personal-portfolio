@@ -22,12 +22,12 @@ const Project = () => {
   ];
 
   return (
-    <div name="projects" className=" w-full md:h-screen">
+    <div name="projects" className=" w-full md:h-screen ">
       <div className="max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <h2 className="text-4xl text-cyan-700 dark:text-white font-bold inline border-b-4 border-cyan-700 dark:border-amber-500">Projects</h2>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-10 sm:px-0">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10 sm:px-0">
           {projects.map(({ id, src, skills, title, details }) => (
             <div key={id} className="shadow-lg shadow-cyan-900 ">
               <img src={src} alt="" className="rounded-md duration-500 hover:scale-110" />
@@ -35,7 +35,6 @@ const Project = () => {
               <p className="px-2">{details}</p>
               <div className="flex items-center justify-center">
                 <p className="py-2 duration-200 hover:scale-105  text-cyan-700 dark:text-amber-500">{skills}</p>
-                {/* <button className="py-3 mx-auto duration-200 hover:scale-105">Code</button> */}
               </div>
             </div>
           ))}

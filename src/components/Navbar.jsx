@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 fixed">
       <div>
-        <h1 className="text-7xl ml-6 ">
+        <h1 className="sm:text-7xl text-4xl ml-6 ">
           Parker <span className="text-cyan-700 dark:text-amber-400">Hewitt</span>
           <button className="p-4 mx-4 rounded-3xl" onClick={handleThemeSwitch}>
             {theme === "dark" ? <MdOutlineDarkMode size={30} /> : <MdDarkMode size={30} />}
