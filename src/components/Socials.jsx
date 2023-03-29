@@ -13,7 +13,6 @@ const Socials = () => {
         </>
       ),
       href: "https://github.com/parkerh4",
-      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -43,15 +42,14 @@ const Socials = () => {
         </>
       ),
       href: "mailto:parkerhewitt95@gmail.com",
-      style: "rounded-br-md",
     },
   ];
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] fixed">
       <ul>
-        {links.map(({ id, icon, href, style }) => (
-          <li key={id} className={"flex justify-between items-center w-40 h-14 px-3 ml-[-100px] hover:ml-[-8px] hover:rounded-md duration-500 bg-cyan-700 dark:bg-orange-400" + " " + style}>
+        {links.map(({ id, icon, href }) => (
+          <li key={id} className={"flex justify-between items-center w-40 h-14 px-3 ml-[-100px] hover:ml-[-8px] hover:rounded-md duration-500 bg-cyan-700 dark:bg-orange-400"}>
             <a href={href} className="flex justify-between items-center w-full text-white" target="_blank" rel="noreferrer">
               {icon}
             </a>
