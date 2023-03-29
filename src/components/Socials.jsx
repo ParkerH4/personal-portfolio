@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Socials = () => {
   const links = [
@@ -32,6 +33,16 @@ const Socials = () => {
         </>
       ),
       href: "/resume.pdf",
+    },
+    {
+      id: 4,
+      icon: (
+        <>
+          Contact
+          <MdOutlineEmail size={30} />
+        </>
+      ),
+      href: "mailto:parkerhewitt95@gmail.com",
       style: "rounded-br-md",
     },
   ];
@@ -39,8 +50,8 @@ const Socials = () => {
   return (
     <div className="hidden lg:flex flex-col top-[35%] fixed">
       <ul>
-        {links.map(({ id, icon, href, style, download }) => (
-          <li key={id} className={"flex justify-between items-center w-40 h-14 px-3 ml-[-100px] hover:ml-[-8px] hover:rounded-md duration-500 bg-cyan-700 dark:bg-orange-400"}>
+        {links.map(({ id, icon, href, style }) => (
+          <li key={id} className={"flex justify-between items-center w-40 h-14 px-3 ml-[-100px] hover:ml-[-8px] hover:rounded-md duration-500 bg-cyan-700 dark:bg-orange-400" + " " + style}>
             <a href={href} className="flex justify-between items-center w-full text-white" target="_blank" rel="noreferrer">
               {icon}
             </a>
