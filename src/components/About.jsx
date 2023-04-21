@@ -13,7 +13,7 @@ const About = () => {
         </p>
 
         <p className="text-xl my-2">When I'm not coding, you can find me exploring the latest tech trends, gaming, or binging my favorite TV shows.</p>
-        <p className="text-xl my-2">Lets Connect! Currently looking for full-time oppurtunities for 2023!</p>
+        <p className="text-xl my-2">Let's Connect! Currently looking for full-time opportunities for 2023!</p>
       </div>
     </div>
   );
