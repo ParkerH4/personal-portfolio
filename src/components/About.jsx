@@ -9,7 +9,7 @@ const About = () => {
         </div>
 
         <p className="text-xl my-2">
-          Hi! my name is <span className="text-cyan-700 dark:text-amber-400 font-bold">Parker</span>, and I'm a software developer with a passion for solving complex problems. I'm in my last semester of a Software Development diploma at the <span className="text-cyan-700 dark:text-amber-400 font-bold">Southern Alberta Institute of Technology</span>, where I've gained a strong foundation in <span className="text-cyan-700 dark:text-amber-400 font-bold">Java</span>, <span className="text-cyan-700 dark:text-amber-400 font-bold">HTML/CSS</span>, and <span className="text-cyan-700 dark:text-amber-400 font-bold">JavaScript</span>.
+          Hi! My name is <span className="text-cyan-700 dark:text-amber-400 font-bold">Parker</span>, and I'm a software developer with a passion for solving complex problems. I'm in my last semester of a Software Development diploma at the <span className="text-cyan-700 dark:text-amber-400 font-bold">Southern Alberta Institute of Technology</span>, where I've gained a strong foundation in <span className="text-cyan-700 dark:text-amber-400 font-bold">Java</span>, <span className="text-cyan-700 dark:text-amber-400 font-bold">HTML/CSS</span>, and <span className="text-cyan-700 dark:text-amber-400 font-bold">JavaScript</span>.
         </p>
 
         <p className="text-xl my-2">When I'm not coding, you can find me exploring the latest tech trends, gaming, or binging my favorite TV shows.</p>

@@ -5,12 +5,14 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactLogo from "../assets/react.png";
 import java from "../assets/java.png";
-import node from "../assets/node.png";
+import c from "../assets/c.png";
 import python from "../assets/python.png";
 import vscode from "../assets/vscode.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mySQL from "../assets/mySQL.png";
+import linux from "../assets/linux.png";
+import vmware from "../assets/vmware.png";
 
 const Experience = () => {
   const languages = [
@@ -48,7 +50,7 @@ const Experience = () => {
       id: 6,
       src: reactLogo,
       title: "React",
-      border: "shadow-blue-600",
+      border: "shadow-sky-400",
     },
     {
       id: 7,
@@ -70,14 +72,26 @@ const Experience = () => {
     },
     {
       id: 10,
-      src: node,
-      title: "Node",
-      border: "shadow-green-500",
+      src: c,
+      title: "C",
+      border: "shadow-blue-600",
     },
     {
       id: 11,
       src: mySQL,
       title: "mySQL/Oracle",
+      border: "shadow-amber-500",
+    },
+    {
+      id: 12,
+      src: linux,
+      title: "Linux",
+      border: "shadow-yellow-400",
+    },
+    {
+      id: 13,
+      src: vmware,
+      title: "VMware",
       border: "shadow-amber-500",
     },
   ];

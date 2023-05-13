@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <button type="button" onClick={handleThemeSwitch} className="fixed invisible"></button>
-      <div className="bg-stone-300 text-stone-700 dark:text-white dark:bg-gradient-to-r from-cyan-900 to-cyan-700  ">
+      <div className="bg-stone-300 text-stone-700 dark:text-white dark:bg-gradient-to-r from-cyan-900 to-cyan-700">
         <Navbar />
         <Home />
         <Socials />
