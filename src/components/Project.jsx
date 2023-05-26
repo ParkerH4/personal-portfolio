@@ -3,6 +3,7 @@ import React from "react";
 import projPortfolio from "../assets/portfolio/projPortfolio.png";
 import projTaxAPI from "../assets/portfolio/projTaxAPI.jpg";
 import projNetflixStats from "../assets/portfolio/projNetflixStats.jpg";
+import projShowtimeDB from "../assets/portfolio/projShowtimeDB.png";
 
 const Project = () => {
   const projects = [
@@ -29,6 +30,14 @@ const Project = () => {
       title: "Netflix Data/Stats Tracker",
       details: "Fun Python data visualization project that analyzes my personal Netflix viewing information. Then deploys it into a dashboard filled with fun statistics about my data using the Dash package.",
       link: "https://github.com/ParkerH4/netflix-stats-tracker",
+    },
+    {
+      id: 4,
+      src: projShowtimeDB,
+      skills: "React.js/HTML/CSS",
+      title: "ShowtimeDB",
+      details: "ShowtimeDB is a React-based web app that lets users explore movies and TV shows. Using the TMDb (The Movie Database) API, it offers information on popular movies, top-rated TV shows, and allows searching for specific content. Users can view content details or watch trailers.",
+      link: "https://github.com/ParkerH4/movie-tv-db",
     },
   ];
   return (
