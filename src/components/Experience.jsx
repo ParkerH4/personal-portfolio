@@ -13,6 +13,7 @@ import tailwind from "../assets/tailwind.png";
 import mySQL from "../assets/mySQL.png";
 import linux from "../assets/linux.png";
 import vmware from "../assets/vmware.png";
+import bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const languages = [
@@ -79,7 +80,7 @@ const Experience = () => {
     {
       id: 11,
       src: mySQL,
-      title: "mySQL/Oracle",
+      title: "MySQL",
       border: "shadow-amber-500",
     },
     {
@@ -94,21 +95,27 @@ const Experience = () => {
       title: "VMware",
       border: "shadow-amber-500",
     },
+    {
+      id: 14,
+      src: bootstrap,
+      title: "Bootstrap",
+      border: "shadow-purple-500",
+    },
   ];
 
   return (
     <div name="experience" className="w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <h2 className="text-4xl text-cyan-700 dark:text-white font-bold border-b-4 border-cyan-700 dark:border-amber-500 inline">Experience</h2>
-          <p className=" text-xl py-6">Here are some languages/libraries and technologies I have worked with:</p>
+          <h2 className="text-3xl sm:text-4xl text-cyan-700 dark:text-white font-bold border-b-4 border-cyan-700 dark:border-amber-500 inline">Experience</h2>
+          <p className=" text-md sm:text-xl py-6">Here are some languages/libraries and technologies I have worked with:</p>
         </div>
 
-        <div className="w-full grid grid-cols-3 sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-4 sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
           {languages.map(({ id, src, title, border }) => (
-            <div key={id} className={`bg-cyan-900 text-white hover:scale-110 duration-500 sm:py-3 shadow-lg ${border}`}>
+            <div key={id} className={`bg-cyan-900  text-white hover:scale-110 duration-500 sm:py-3 shadow-lg ${border}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-3">{title}</p>
+              <p className="mt-3 text-sm sm:text-xl">{title}</p>
             </div>
           ))}
         </div>

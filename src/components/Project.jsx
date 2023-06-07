@@ -4,7 +4,7 @@ import projPortfolio from "../assets/portfolio/projPortfolio.png";
 import projTaxAPI from "../assets/portfolio/projTaxAPI.jpg";
 import projNetflixStats from "../assets/portfolio/projNetflixStats.jpg";
 import projShowtimeDB from "../assets/portfolio/projShowtimeDB.png";
-
+import projBootstrapPlayground from "../assets/portfolio/projBootstrapPlayground.png";
 const Project = () => {
   const projects = [
     {
@@ -28,7 +28,7 @@ const Project = () => {
       src: projNetflixStats,
       skills: "Python",
       title: "Netflix Data/Stats Tracker",
-      details: "Fun Python data visualization project that analyzes my personal Netflix viewing information. Then deploys it into a dashboard filled with fun statistics about my data using the Dash package.",
+      details: " Python data visualization project that analyzes my personal Netflix viewing information. Then deploys it into a dashboard filled with neat statistics about my data using the Dash Python package. Dashboard is styled with HTML/CSS.",
       link: "https://github.com/ParkerH4/netflix-stats-tracker",
     },
     {
@@ -39,14 +39,22 @@ const Project = () => {
       details: "ShowtimeDB is a React-based web app that lets users explore movies and TV shows. Using the TMDb (The Movie Database) API, it offers information on popular movies, top-rated TV shows, and allows searching for specific content. Users can view content details or watch trailers.",
       link: "https://github.com/ParkerH4/movie-tv-db",
     },
+    {
+      id: 5,
+      src: projBootstrapPlayground,
+      skills: "HTML/CSS (Bootstrap)",
+      title: "Bootstrap Playground",
+      details: "This is a demo project called Bootstrap Playground where I was testing out the functionality of Bootstrap. I was following a guide and used the official Bootstrap Documentation to make this sample project. This project is simply a fake book store where I was showcasing a best selling book that I wrote.",
+      link: "https://github.com/ParkerH4/bootstrap-playground",
+    },
   ];
   return (
     <div name="projects" className=" w-full md:h-screen ">
       <div className="max-w-screen-lg  mx-auto flex flex-col justify-center h-full mt-10">
         <div className="pb-8">
-          <h2 className="text-4xl text-cyan-700 dark:text-white font-bold inline border-b-4 border-cyan-700 dark:border-amber-500">Projects</h2>
+          <h2 className="text-3xl sm:text-4xl text-cyan-700 dark:text-white font-bold inline border-b-4 border-cyan-700 dark:border-amber-500">Projects</h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-10 sm:px-0">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-10">
           {projects.map(({ id, src, skills, title, details, link }) => (
             <div key={id} className="shadow-lg shadow-cyan-900 ">
               <img src={src} alt="" className="w-full h-40 object-cover object-center" />
