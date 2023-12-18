@@ -5,6 +5,8 @@ import projTaxAPI from "../assets/portfolio/projTaxAPI.jpg";
 import projNetflixStats from "../assets/portfolio/projNetflixStats.jpg";
 import projShowtimeDB from "../assets/portfolio/projShowtimeDB.png";
 import projBootstrapPlayground from "../assets/portfolio/projBootstrapPlayground.png";
+import projMagicSearch from "../assets/portfolio/projMagicSearch.png";
+
 const Project = () => {
   const projects = [
     {
@@ -46,6 +48,14 @@ const Project = () => {
       title: "Bootstrap Playground",
       details: "This is a demo project called Bootstrap Playground where I was testing out the functionality of Bootstrap. I was following a guide and used the official Bootstrap Documentation to make this sample project. This project is simply a fake book store where I was showcasing a best selling book that I wrote.",
       link: "https://github.com/ParkerH4/bootstrap-playground",
+    },
+    {
+      id: 6,
+      src: projMagicSearch,
+      skills: "React, Node, Express, TypeScript, Tailwind CSS",
+      title: "Magic The Gathering Card Search",
+      details: "The goal of this project was to create a basic full-stack application using TypeScript, React, Node, Express, and integrating with the Scryfall API for Magic cards. The project includes a backend that serves as a REST endpoint to fetch Magic cards based on a user-provided search string. The frontend, built with React, enables users to search for cards and displays card information such as images, names, set names, numbers, and rarities.",
+      link: "https://github.com/ParkerH4/MagicTheGathering-Card-Search",
     },
   ];
   return (

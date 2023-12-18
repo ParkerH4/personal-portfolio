@@ -14,6 +14,8 @@ import mySQL from "../assets/mySQL.png";
 import linux from "../assets/linux.png";
 import vmware from "../assets/vmware.png";
 import bootstrap from "../assets/bootstrap.png";
+import nodejs from "../assets/nodejs.png";
+import csharp from "../assets/c#.png";
 
 const Experience = () => {
   const languages = [
@@ -67,9 +69,9 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: vscode,
-      title: "VSCode",
-      border: "shadow-sky-500",
+      src: csharp,
+      title: "C#",
+      border: "shadow-purple-500",
     },
     {
       id: 10,
@@ -100,6 +102,18 @@ const Experience = () => {
       src: bootstrap,
       title: "Bootstrap",
       border: "shadow-purple-500",
+    },
+    {
+      id: 15,
+      src: nodejs,
+      title: "Node",
+      border: "shadow-green-400",
+    },
+    {
+      id: 16,
+      src: vscode,
+      title: "VSCode",
+      border: "shadow-sky-500",
     },
   ];
 
