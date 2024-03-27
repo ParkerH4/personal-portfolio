@@ -16,6 +16,7 @@ import vmware from "../assets/vmware.png";
 import bootstrap from "../assets/bootstrap.png";
 import nodejs from "../assets/nodejs.png";
 import csharp from "../assets/c#.png";
+import rails from "../assets/rails.png";
 
 const Experience = () => {
   const languages = [
@@ -114,6 +115,12 @@ const Experience = () => {
       src: vscode,
       title: "VSCode",
       border: "shadow-sky-500",
+    },
+    {
+      id: 17,
+      src: rails,
+      title: "Ruby on Rails",
+      border: "shadow-red-500",
     },
   ];
 
