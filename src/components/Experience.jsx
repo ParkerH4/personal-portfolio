@@ -15,7 +15,7 @@ import linux from "../assets/linux.png";
 import vmware from "../assets/vmware.png";
 import bootstrap from "../assets/bootstrap.png";
 import nodejs from "../assets/nodejs.png";
-import csharp from "../assets/c#.png";
+import cplusplus from "../assets/c++.png";
 import rails from "../assets/rails.png";
 
 const Experience = () => {
@@ -64,20 +64,20 @@ const Experience = () => {
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
-      border: "shadow-white",
+      src: rails,
+      title: "Ruby on Rails",
+      border: "shadow-red-500",
     },
     {
       id: 9,
-      src: csharp,
-      title: "C#",
-      border: "shadow-purple-500",
+      src: c,
+      title: "C",
+      border: "shadow-blue-600",
     },
     {
       id: 10,
-      src: c,
-      title: "C",
+      src: cplusplus,
+      title: "C++",
       border: "shadow-blue-600",
     },
     {
@@ -118,9 +118,9 @@ const Experience = () => {
     },
     {
       id: 17,
-      src: rails,
-      title: "Ruby on Rails",
-      border: "shadow-red-500",
+      src: github,
+      title: "GitHub",
+      border: "shadow-white",
     },
   ];
 

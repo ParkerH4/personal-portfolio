@@ -13,8 +13,8 @@ const Project = () => {
       id: 1,
       src: projTaxAPI,
       skills: "Java/HTML/CSS/JavaScript/REST",
-      title: "atVenu Tax Rate API (Capstone Project)",
-      details: "Led a team in developing the AtVenu Tax Rate API, enhancing user experience and functionality. Designed and implemented a scalable backend for efficient processing of thousands of zip codes and tax rate data. Integrated REST functionality with JWT token-based authentication for secure API access. Managed a database automating tax rate population, reducing manual entry and ensuring accuracy. Demonstrated seamless integration between backend and frontend components in a demo.",
+      title: "Capstone Project – Tax Rate API ",
+      details: "Led a team in collaboration with AtVenu to develop a Tax Rate API, enhancing user experience and functionality. Designed a scalable backend to process thousands of zip codes and tax data. Integrated REST functionality with JWT authentication for secure access. Automated tax rate population to reduce manual entry and improve accuracy. Demonstrated seamless backend and frontend integration in a live demo.",
       link: "https://github.com/ParkerH4/taxrateAPI",
     },
     {
