@@ -9,7 +9,7 @@ const Contact = () => {
         </div>
 
         <p className="text-md sm:text-xl p-4 my-2">
-          <p className="text-md sm:text-xl my-2">I'm excited to take the next step in my career and currently seeking full-time opportunities for 2024/2025. If you have something in mind or just want to chat, feel free to reach out!</p>
+          <p className="text-md sm:text-xl my-2">I'm excited to take the next step in my career and currently seeking full-time opportunities for 2026/2027. If you have something in mind or just want to chat, feel free to reach out!</p>
         </p>
         <a href="mailto:parkerhewitt95@gmail.com" className="text-white text-md sm:text-xl bg-cyan-700 dark:bg-orange-400 px-6 py-6 my-8 mx-auto rounded-md hover:scale-110 duration-500">
           Connect with Me!
