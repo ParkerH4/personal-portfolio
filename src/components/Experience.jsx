@@ -50,14 +50,14 @@ const Experience = () => {
     {
       id: 1,
       role: "IT Software Developer Co-op",
-      duration: "May 2025 – Present",
-      company: "EVRAZ North America",
+      duration: "May 2025 – Dec 2025",
+      company: "Interpro Pipe & Steel",
       location: "Calgary, AB",
       description: [
-        "Maintained and enhanced legacy software by modifying code, adding features, modernizing outdated components and updating large-scale databases using VB, C#, and SQL.",
-        "Designed automated test programs to validate new features and ensure quality before deployment.",
-        "Produced documentation and presentations summarizing progress and completed tasks for stakeholders.",
-        "Collaborated with team members to troubleshoot issues and support ongoing development efforts.",
+        "Maintained and enhanced legacy production applications by refactoring code, converting VB screens to C#, implementing quality-of-life improvements, and updating large SQL-backed databases.",
+        "Diagnosed and resolved application bugs by analyzing existing codebases and database interactions, improving system stability, correctness, and usability.",
+        "Developed SQL-based reports to provide relevant system and operational data for developers and business stakeholders.",
+        " Documented completed work through concise task-level technical summaries and collaborated with team members using a centralized version control system.",
       ],
     },
   ];

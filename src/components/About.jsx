@@ -13,7 +13,7 @@ const About = () => {
         </p>
 
         <p className="text-md sm:text-xl my-2">
-          In addition to software development, you can find me exploring the latest tech trends, gaming, or binging my favorite TV shows. I'm currently admist a Co-op placement at <span className="text-cyan-700 dark:text-amber-400 font-bold">EVRAZ North America</span>, but seeking <span className="text-cyan-700 dark:text-amber-400 font-bold">Full-Time/Co-op software development opportunities for 2026/2027</span>, where I can apply my skills and continue to grow as a developer.
+          In addition to software development, you can find me exploring the latest tech trends, gaming, or binging my favorite TV shows. I'm currently seeking <span className="text-cyan-700 dark:text-amber-400 font-bold">Full-Time/Co-op </span> software development opportunities for 2026/2027, where I can apply my skills and continue to grow as a developer.
         </p>
 
         <p className="text-md sm:text-xl my-2">Let's Connect!</p>
