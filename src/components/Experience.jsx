@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 import html from "../assets/html.png";
@@ -7,14 +8,11 @@ import reactLogo from "../assets/react.png";
 import java from "../assets/java.png";
 import csharp from "../assets/c#.png";
 import python from "../assets/python.png";
-import vscode from "../assets/vscode.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import SQL from "../assets/sql.png";
 import linux from "../assets/linux.png";
-import vmware from "../assets/vmware.png";
 import bootstrap from "../assets/bootstrap.png";
-import cplusplus from "../assets/c++.png";
 import rails from "../assets/rails.png";
 import VB from  "../assets/visualbasic.png";
 import visualstudio from  "../assets/visualstudio.png";
@@ -24,25 +22,22 @@ const Experience = () => {
   const [showSkills, setShowSkills] = useState(true);
 
   const languages = [
-    { id: 1, src: java, title: "Java", border: "shadow-amber-500" },
-    { id: 2, src: csharp, title: "C#", border: "shadow-purple-500" },
-    { id: 3, src: cplusplus, title: "C++", border: "shadow-blue-500" },
-    { id: 4, src: python, title: "Python", border: "shadow-yellow-400" },
-    { id: 5, src: SQL, title: "SQL", border: "shadow-amber-500" },
-    { id: 6, src: html, title: "HTML", border: "shadow-red-500" },
-    { id: 7, src: css, title: "CSS", border: "shadow-blue-600" },
-    { id: 8, src: javascript, title: "JavaScript", border: "shadow-yellow-400" },
-    { id: 9, src: VB, title: "Visual Basic", border: "shadow-blue-600" },
-    { id: 10, src: reactLogo, title: "React", border: "shadow-sky-400" },
-    { id: 11, src: rails, title: "Ruby on Rails", border: "shadow-red-500" },
-    { id: 12, src: tailwind, title: "Tailwind", border: "shadow-sky-400" },
-    { id: 13, src: bootstrap, title: "Bootstrap", border: "shadow-purple-500" },
-    { id: 14, src: vscode, title: "VSCode", border: "shadow-sky-500" },
-    { id: 15, src: visualstudio, title: "Visual Studio", border: "shadow-purple-500" },
-    { id: 16, src: github, title: "GitHub", border: "shadow-white" },
-    { id: 17, src: powerbi, title: "Power BI", border: "shadow-yellow-500" },
-    { id: 18, src: linux, title: "Linux", border: "shadow-yellow-400" },
-    { id: 19, src: vmware, title: "VMware", border: "shadow-amber-500" },
+    { id: 1, src: csharp, title: "C#", border: "shadow-purple-500" },
+    { id: 2, src: SQL, title: "SQL", border: "shadow-amber-500" },
+    { id: 3, src: VB, title: "Visual Basic", border: "shadow-blue-600" },
+    { id: 4, src: java, title: "Java", border: "shadow-amber-500" },
+    { id: 5, src: python, title: "Python", border: "shadow-yellow-400" },
+    { id: 6, src: javascript, title: "JavaScript", border: "shadow-yellow-400" },
+    { id: 7, src: reactLogo, title: "React", border: "shadow-sky-400" },
+    { id: 8, src: html, title: "HTML", border: "shadow-red-500" },
+    { id: 9, src: css, title: "CSS", border: "shadow-blue-600" },
+    { id: 10, src: rails, title: "Ruby on Rails", border: "shadow-red-500" },
+    { id: 11, src: tailwind, title: "Tailwind", border: "shadow-sky-400" },
+    { id: 12, src: bootstrap, title: "Bootstrap", border: "shadow-purple-500" },
+    { id: 13, src: visualstudio, title: "Visual Studio", border: "shadow-purple-500" },
+    { id: 14, src: github, title: "GitHub", border: "shadow-white" },
+    { id: 15, src: powerbi, title: "Power BI", border: "shadow-yellow-500" },
+    { id: 16, src: linux, title: "Linux", border: "shadow-yellow-400" },
 
   ];
 
@@ -50,14 +45,14 @@ const Experience = () => {
     {
       id: 1,
       role: "IT Software Developer Co-op",
-      duration: "May 2025 – Dec 2025",
+      duration: "May–Dec 2025 | May–Aug 2026",
       company: "Interpro Pipe & Steel",
       location: "Calgary, AB",
       description: [
-        "Maintained and enhanced legacy production applications by refactoring code, converting VB screens to C#, implementing quality-of-life improvements, and updating large SQL-backed databases.",
-        "Diagnosed and resolved application bugs by analyzing existing codebases and database interactions, improving system stability, correctness, and usability.",
-        "Developed SQL-based reports to provide relevant system and operational data for developers and business stakeholders.",
-        " Documented completed work through concise task-level technical summaries and collaborated with team members using a centralized version control system.",
+        "Maintained and enhanced production applications using C#, Visual Basic, and SQL, including refactoring legacy code, converting VB screens to C#, and implementing new features.",
+        "Diagnosed and resolved application issues by debugging existing codebases, analyzing database interactions, and troubleshooting software defects.",
+        "Developed SQL-based reports and updated database functionality to support business operations and internal application requirements.",
+        "Collaborated with developers and stakeholders to implement application improvements, document technical changes, and maintain existing systems.",
       ],
     },
   ];
@@ -104,7 +99,7 @@ const Experience = () => {
                 worked with:
               </p>
 
-              <div className="w-full grid grid-cols-4 sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-4 sm:grid-cols-4 gap-8 text-center py-6 px-12 sm:px-0">
                 {languages.map(({ id, src, title, border }) => (
                   <div
                     key={id}

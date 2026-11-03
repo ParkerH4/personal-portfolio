@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const About = () => {
@@ -9,11 +10,15 @@ const About = () => {
         </div>
 
         <p className="text-md sm:text-xl my-2">
-          Hi! My name is <span className="text-cyan-700 dark:text-amber-400 font-bold">Parker</span>, and I'm a software developer with a passion for solving complex problems. I'm currently in my last year pursuing a <span className="text-cyan-700 dark:text-amber-400 font-bold">Bachelor of Science in Computer Science</span> at the <span className="text-cyan-700 dark:text-amber-400 font-bold">University of Lethbridge</span>. I have proficiency in object-oriented languages such as <span className="text-cyan-700 dark:text-amber-400 font-bold">Java</span>, and <span className="text-cyan-700 dark:text-amber-400 font-bold">C#</span>. Also a solid foundation in <span className="text-cyan-700 dark:text-amber-400 font-bold">SQL</span>,<span className="text-cyan-700 dark:text-amber-400 font-bold">HTML/CSS</span>, and <span className="text-cyan-700 dark:text-amber-400 font-bold">JavaScript</span>.
+          Hi! My name is <span className="text-cyan-700 dark:text-amber-400 font-bold">Parker</span>, and I'm a software developer currently finishing my <span className="text-cyan-700 dark:text-amber-400 font-bold">Bachelor of Science in Computer Science</span> at the <span className="text-cyan-700 dark:text-amber-400 font-bold">University of Lethbridge</span>. I also graduated from SAIT's Software Development program in 2023.
         </p>
 
         <p className="text-md sm:text-xl my-2">
-          In addition to software development, you can find me exploring the latest tech trends, gaming, or binging my favorite TV shows. I'm currently seeking <span className="text-cyan-700 dark:text-amber-400 font-bold">Full-Time/Co-op </span> software development opportunities for 2026/2027, where I can apply my skills and continue to grow as a developer.
+          Through my co-op experience at <span className="text-cyan-700 dark:text-amber-400 font-bold">Interpro Pipe & Steel</span>, I've gained hands-on experience maintaining and improving internal applications using <span className="text-cyan-700 dark:text-amber-400 font-bold">C#, Visual Basic, and SQL</span>. My work has included implementing new features, troubleshooting issues, and working with databases in a professional development environment.
+        </p>
+
+        <p className="text-md sm:text-xl my-2">
+          Outside of programming, I enjoy keeping up with technology, gaming, watching movies, and staying active. With graduation approaching in December 2026, I'm excited to take the next step in my career and am currently looking for <span className="text-cyan-700 dark:text-amber-400 font-bold">full-time software development opportunities</span>.
         </p>
 
         <p className="text-md sm:text-xl my-2">Let's Connect!</p>

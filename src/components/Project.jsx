@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import projPortfolio from "../assets/portfolio/projPortfolio.png";
@@ -11,51 +12,51 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      src: projTaxAPI,
-      skills: "Java/HTML/CSS/JavaScript/REST",
-      title: "Capstone Project – Tax Rate API ",
-      details: "Led a team in collaboration with AtVenu to develop a Tax Rate API, enhancing user experience and functionality. Designed a scalable backend to process thousands of zip codes and tax data. Integrated REST functionality with JWT authentication for secure access. Automated tax rate population to reduce manual entry and improve accuracy. Demonstrated seamless backend and frontend integration in a live demo.",
-      link: "https://github.com/ParkerH4/taxrateAPI",
-    },
-    {
-      id: 2,
-      src: projTwitter,
-      skills: "Ruby on Rails/HTML/CSS/JavaScript/SQL",
-      title: "Twitter Clone: A Ruby on Rails Showcase",
-      details: "Twitter Clone: A Ruby on Rails Showcase is a dynamic web application mirroring the essence of Twitter, built with Ruby on Rails. Emulating key features like posting tweets, following users, and a dynamic feed, this project showcases robust CRUD operations, an intuitive UI, and optimized database interactions. Dive into the codebase to explore implementation details and Ruby on Rails best practices. ",
-      link: "https://github.com/ParkerH4/twitter-clone",
-    },
-    {
-      id: 3,
       src: projMagicSearch,
       skills: "React/Node/Express/TypeScript/Tailwind",
       title: "Magic The Gathering Card Search",
-      details: "The goal of this project was to create a basic full-stack application using TypeScript, React, Node, Express, and integrating with the Scryfall API for Magic cards. The project includes a backend that serves as a REST endpoint to fetch Magic cards based on a user-provided search string. The frontend, built with React, enables users to search for cards and displays card information such as images, names, set names, numbers, and rarities.",
+      details: "Built a full-stack application using React, TypeScript, Node.js, and Express that allows users to search for Magic: The Gathering cards. Integrated the Scryfall API to retrieve and display card information, including images, names, sets, and rarities.",
       link: "https://github.com/ParkerH4/MagicTheGathering-Card-Search",
     },
     {
-      id: 4,
-      src: projPortfolio,
-      skills: "React/Tailwind CSS",
-      title: "Personal Portfolio",
-      details: "Personal Portfolio built with React and Tailwind that showcases my contact information, skills, experience, and projects. Contains an about me page and features such as darkmode.",
-      link: "https://www.parkerhewitt.com",
+      id: 2,
+      src: projTaxAPI,
+      skills: "Java/HTML/CSS/JavaScript/REST",
+      title: "Capstone Project – Tax Rate API",
+      details: "Led a team in collaboration with AtVenu to develop a Tax Rate API capable of processing tax information for thousands of ZIP codes. Developed backend functionality using Java, integrated REST endpoints with JWT authentication, and automated tax rate population to improve accuracy.",
+      link: "https://github.com/ParkerH4/taxrateAPI",
     },
     {
-      id: 5,
+      id: 3,
       src: projNetflixStats,
       skills: "Python",
       title: "Netflix Data/Stats Tracker",
-      details: " Python data visualization project that analyzes my personal Netflix viewing information. Then deploys it into a dashboard filled with neat statistics about my data using the Dash Python package. Dashboard is styled with HTML/CSS.",
+      details: "Developed a Python application to analyze and visualize my personal Netflix viewing history. Used Dash to create an interactive dashboard displaying viewing statistics and trends, styled with HTML and CSS.",
       link: "https://github.com/ParkerH4/netflix-stats-tracker",
     },
     {
-      id: 6,
+      id: 4,
       src: projShowtimeDB,
       skills: "React/HTML/CSS",
       title: "ShowtimeDB",
-      details: "ShowtimeDB is a React-based web app that lets users explore movies and TV shows. Using the TMDb (The Movie Database) API, it offers information on popular movies, top-rated TV shows, and allows searching for specific content. Users can view content details or watch trailers.",
+      details: "Built a React application that uses the TMDb API to explore movies and TV shows. Users can search for titles, browse popular and top-rated content, view details, and watch trailers.",
       link: "https://github.com/ParkerH4/movie-tv-db",
+    },
+    {
+      id: 5,
+      src: projPortfolio,
+      skills: "React/Tailwind CSS",
+      title: "Personal Portfolio",
+      details: "Designed and developed this personal portfolio using React and Tailwind CSS to showcase my projects, technical skills, and professional experience. Features responsive layouts and a customizable dark mode.",
+      link: "https://www.parkerhewitt.com",
+    },
+    {
+      id: 6,
+      src: projTwitter,
+      skills: "Ruby on Rails/HTML/CSS/JavaScript/SQL",
+      title: "Twitter Clone",
+      details: "Developed a Twitter-inspired web application using Ruby on Rails, featuring user posts, following functionality, and a dynamic feed. Implemented CRUD operations and database interactions to support core social media features.",
+      link: "https://github.com/ParkerH4/twitter-clone",
     },
   ];
   return (
@@ -67,7 +68,7 @@ const Project = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-10">
           {projects.map(({ id, src, skills, title, details, link }) => (
             <div key={id} className="shadow-lg shadow-cyan-900 flex flex-col">
-              <img src={src} alt="" className="w-full h-40 object-cover object-center" />
+              <img src={src} alt={title} className="w-full h-40 object-cover object-center" />
               <div className="flex-grow flex flex-col justify-between p-4">
                 <div>
                   <p className="text-xl font-semibold mb-2">{title}</p>
@@ -75,9 +76,9 @@ const Project = () => {
                 </div>
                 <div className="mt-4">
                   <p className="duration-200 hover:scale-105 text-cyan-700 dark:text-amber-500 text-sm">{skills}</p>
-                  <button className="duration-200 hover:scale-105 text-white text-sm px-2 py-1 my-2 mx-2 flex items-center rounded-md bg-cyan-700 dark:bg-orange-400 cursor-pointer ">
-                    <a href={link}>Link</a>
-                  </button>
+                  <a href={link} target="_blank" rel="noopener noreferrer" className="duration-200 hover:scale-105 text-white text-sm px-2 py-1 my-2 mx-2 flex items-center rounded-md bg-cyan-700 dark:bg-orange-400 cursor-pointer w-fit">
+                    {link.includes("github.com") ? "GitHub" : "View Website"}
+                  </a>
                 </div>
               </div>
             </div>
